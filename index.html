@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I²M Computer Maintenance — HP EliteBook Inventory</title>
+<meta name="description" content="Certified refurbished HP EliteBook laptops from I²M Computer Maintenance. Diagnosed, graded, and priced to negotiate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="#top">
+      <span class="wordmark-mark">I²M</span>
+      <span class="wordmark-sub">Computer Maintenance</span>
+    </a>
+    <nav class="site-nav">
+      <a href="#inventory">Inventory</a>
+      <a href="#trust">Why us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Addis Ababa · Trade-licensed distributor</p>
+        <h1>Every unit gets opened,<br> tested, and stamped<br> before it reaches you.</h1>
+        <p class="hero-lede">We deal in refurbished HP EliteBooks — checked component by component,
+          graded honestly, and priced to talk. No inflated list price, no fixed final number.</p>
+        <div class="hero-actions">
+          <a href="#inventory" class="btn btn-primary">See what's in stock</a>
+          <a href="#contact" class="btn btn-ghost">Ask about a unit</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="tilt-card" id="heroTilt">
+          <img src="images/placeholders/laptop-x360.svg" alt="Illustration of an HP EliteBook x360 laptop" class="tilt-img">
+          <div class="stamp-mark">
+            <span>CERTIFIED</span>
+            <span class="stamp-mark-sub">DIAGNOSTIC PASSED</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INVENTORY ============ -->
+  <section class="inventory" id="inventory">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Current inventory</p>
+        <h2>Two units on the floor right now</h2>
+        <p class="section-sub">Photographed as-is. Swipe through each asset's condition photos below before you ask about a price.</p>
+      </div>
+
+      <div class="asset-grid" id="assetGrid">
+        <!-- Cards are injected by script.js from products.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <section class="trust" id="trust">
+    <div class="wrap trust-grid">
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">&#9881;</span>
+        <h3>Diagnostic tested</h3>
+        <p>Battery health, keyboard, hinge, ports, and screen are checked before a unit is listed.</p>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">&#127991;</span>
+        <h3>Graded, not guessed</h3>
+        <p>Every asset tag states its real cosmetic condition — we don't dress up wear and tear.</p>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">&#8776;</span>
+        <h3>Price is a starting point</h3>
+        <p>Listed prices are negotiable. Reach out and we'll talk to a number that works.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact"> <div class="wrap contact-inner">
+      <div>
+        <p class="eyebrow">Get in touch</p>
+        <h2>Tell us which asset number<br>you're asking about.</h2>
+      </div>
+      <div class="contact-card">
+        <!-- TODO: replace these placeholders with your real contact details -->
+        <a class="contact-line" href="tel:+251000000000">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+251 00 000 0000</span>
+        </a>
+        <a class="contact-line" href="https://t.me/yourusername" target="_blank" rel="noopener">
+          <span class="contact-label">Telegram</span>
+          <span class="contact-value">@yourusername</span>
+        </a>
+        <a class="contact-line" href="mailto:hello@example.com">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">hello@example.com</span>
+        </a>
+        <p class="contact-note">Addis Ababa, Ethiopia — visits by appointment.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>I²M Computer Maintenance</span>
+    <span>&copy; <span id="year"></span> · All prices negotiable</span>
+  </div>
+</footer>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
