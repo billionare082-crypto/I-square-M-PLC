@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#26241F"/>
+  <!-- base -->
+  <g>
+    <rect x="70" y="190" width="260" height="14" rx="3" fill="#8C8B86"/>
+    <path d="M60 190 L340 190 L328 176 L72 176 Z" fill="#B0AEA8"/>
+    <rect x="150" y="176" width="100" height="6" rx="2" fill="#55534C"/>
+  </g>
+  <!-- screen tilted back further than a normal laptop, hinting at 360 fold -->
+  <g transform="rotate(-8 200 176)">
+    <rect x="90" y="40" width="220" height="140" rx="6" fill="#1B1A17" stroke="#8C8B86" stroke-width="2"/>
+    <rect x="100" y="50" width="200" height="120" rx="2" fill="#33544F"/>
+    <circle cx="200" cy="58" r="2.5" fill="#55534C"/>
+  </g>
+  <!-- 360 hinge arc, signature detail -->
+  <g stroke="#B6612C" stroke-width="2.5" fill="none" opacity="0.85">
+    <path d="M170 178 A 34 34 0 0 1 230 178" stroke-dasharray="4 5"/>
+  </g>
+  <text x="200" y="250" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#8C8B86" letter-spacing="1">ILLUSTRATION · PHOTO PENDING</text>
+</svg>
